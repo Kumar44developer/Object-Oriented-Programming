@@ -20,6 +20,15 @@ public:
     }
 };
 
+int main() {
+    Puppy p;
+    p.eat();
+    p.bark();
+    p.weep();
+    return 0;
+}
+
+
 
 
 
