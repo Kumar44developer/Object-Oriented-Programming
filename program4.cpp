@@ -7,5 +7,13 @@ public:
         cout << "Eating..." << endl;
     }
 };
+class Dog : public Animal {
+public:
+    void bark() {
+        cout << "Barking..." << endl;
+    }
+};
+
+
 
 
