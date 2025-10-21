@@ -13,6 +13,12 @@ public:
         cout << "Barking..." << endl;
     }
 };
+class Puppy : public Dog {
+public:
+    void weep() {
+        cout << "Weeping..." << endl;
+    }
+};
 
 
 
