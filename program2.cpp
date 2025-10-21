@@ -23,3 +23,9 @@ public:
     }
 };
 
+
+int main() {
+    Person p1("Ravi", 25);
+    p1.show();
+    return 0;
+}
