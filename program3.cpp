@@ -13,6 +13,12 @@ public:
         cout << "Barking..." << endl;
     }
 };
+int main() {
+    Dog d1;
+    d1.eat();
+    d1.bark();
+    return 0;
+}
 
 
 
