@@ -15,3 +15,11 @@ public:
     }
 };
 
+
+int main() {
+    Parent* p;
+    Child c;
+    p = &c;
+    p->show(); // Calls derived version
+    return 0;
+}
