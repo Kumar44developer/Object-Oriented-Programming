@@ -7,3 +7,11 @@ public:
         cout << "Parent class" << endl;
     }
 };
+
+class Child : public Parent {
+public:
+    void show() override {
+        cout << "Child class" << endl;
+    }
+};
+
