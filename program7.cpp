@@ -16,3 +16,11 @@ public:
     }
 };
 
+
+int main() {
+    Print p;
+    p.show(10);          
+    p.show(3.14);        
+    p.show("Hello!");    
+    return 0;
+}
